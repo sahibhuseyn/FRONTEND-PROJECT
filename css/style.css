@@ -1,0 +1,595 @@
+body {
+    overflow-x: hidden;
+}
+
+.allbtn {
+    border-radius: 7px;
+    background-color: #00fff0;
+}
+
+#header {
+    height: 700px;
+    background-color: #223047;
+}
+
+.navbartree {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    font-family: "Dosis";
+}
+
+.navbartree li a {
+    color: white !important;
+}
+
+.logo {
+    max-height: 10px;
+    max-width: 10px;
+}
+
+.fa-bars {
+    width: 25px;
+    height: 26px;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.appo {
+    font-size: 35px !important;
+    letter-spacing: 1px !important;
+    line-height: 47px !important;
+    color: #00fff1 !important;
+    font-family: "Dosis" !important;
+    text-align: right !important;
+    margin-right: 250px;
+}
+
+.icon {
+    color: white;
+}
+
+.myBtn {
+    width: 137px;
+    height: 40px;
+}
+
+.con2 {
+    margin-right: 25px;
+    margin-top: 105px;
+}
+
+.con2 .row h3 {
+    margin-top: 25px;
+    font-size: 39px;
+    letter-spacing: 1px;
+    line-height: 49px;
+    color: #ffffff;
+    font-family: "Dosis";
+}
+
+.con2 .row p {
+    margin-top: 40px;
+    width: 417px;
+    height: 77px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #97a4be;
+    font-family: "Dosis";
+    margin-bottom: 125px;
+}
+
+.con2 .row .dowbtn {
+    /* width: 137px; */
+    margin-right: 27px;
+    height: 40px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #223047;
+    font-family: "Dosis";
+}
+
+.con2 .row .reachbtn {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: "Dosis";
+    background-color: #223047;
+    border-color: white;
+}
+
+.con2 .row .iphone {
+    position: absolute;
+    right: 200px;
+    top: -29px;
+}
+
+#brend {
+    padding-bottom: 76px;
+}
+
+#brend .col-md-12 h4 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: #233148;
+    font-family: "Dosis";
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+    margin-bottom: 160px;
+}
+
+#brend .col-md-12 h4::before {
+    position: absolute;
+    content: "";
+    top: 166px;
+    left: 500px;
+    width: 100px;
+    height: 5px;
+    background-color: #00fff1;
+}
+
+#brend .col-md-12 h1 {
+    font-size: 14px;
+    line-height: 5px;
+    color: #333;
+    text-align: center;
+    height: 5px;
+    width: 20px;
+}
+
+#brend .row .cart {
+    width: 270px;
+    height: 321px;
+    border-radius: 5px;
+    box-shadow: 1px 1.732px 5px rgba(30, 43, 63, 0.1);
+    background-color: #ffffff;
+    margin-left: 15px;
+}
+
+#brend .row .cart img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 71px;
+    margin-bottom: 20px;
+}
+
+#brend .row .cart p {
+    width: 220px;
+    height: 79px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #97a4be;
+    font-family: "Dosis";
+    text-align: center;
+    margin-left: 15px;
+}
+
+#brend .row .cart h5 {
+    font-size: 17px;
+    text-align: center;
+    line-height: 50px;
+    color: #233148;
+    font-family: "Dosis";
+}
+
+#moreinf {
+    margin-bottom: 200px;
+}
+
+#moreinf .col-md-5 {
+    height: 415px;
+    background-color: #223047;
+}
+
+#moreinf .col-md-7 {
+    background-color: #f5f6fa;
+}
+
+#moreinf .col-md-7 h2 {
+    position: relative;
+    top: 70px;
+    left: 85px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Dosis";
+}
+
+#moreinf .col-md-7 p {
+    position: relative;
+    top: 92px;
+    left: 85px;
+    width: 522px;
+    height: 162px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #97a4be;
+    font-family: "Dosis";
+}
+
+#stableReady {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#stableReady .firstrow {
+    margin-bottom: 200px;
+}
+
+#stableReady .secondrow {
+    height: 480px;
+}
+
+#stableReady .firstrow h4 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Dosis";
+    text-align: right;
+    position: absolute;
+    top: -88px;
+    left: 341px;
+}
+
+#stableReady .firstrow p {
+    width: 469px;
+    height: 141px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #97a4be;
+    font-family: "Dosis";
+    text-align: right;
+    position: absolute;
+    top: 2px;
+    left: 98px;
+}
+
+#stableReady .firstrow button {
+    position: absolute;
+    top: 153px;
+    left: 386px;
+}
+
+#stableReady .firstrow .col-md-5 img {
+    position: absolute;
+    top: -106px;
+    left: -143px;
+}
+
+#stableReady .secondrow .col-md-7 img {
+    position: absolute;
+    left: 169px;
+    top: 75px;
+}
+
+#stableReady .secondrow .col-md-5 ul {
+    list-style: none;
+    background-color: none;
+    position: absolute;
+    top: 184px;
+    left: -150px;
+}
+
+#stableReady .secondrow .col-md-5 ul li {
+    width: 542px !important;
+    height: 78px !important;
+    box-shadow: 2px 3.464px 10px rgba(35, 39, 51, 0.1) !important;
+}
+
+#stableReady .secondrow .col-md-5 ul li i {}
+
+#stableReady .secondrow .col-md-5 ul p {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #233148;
+    font-family: "Dosis";
+    text-align: center;
+    display: inline;
+}
+
+#youNeed {
+    background-color: #f5f6fa;
+    height: 480px;
+    width: 1920px;
+}
+
+#youNeed .col-md-5 h3 {
+    position: absolute;
+    top: 166px;
+    left: -109px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Dosis";
+    text-align: right;
+}
+
+#youNeed .col-md-5 ul {
+    position: absolute;
+    top: 226px;
+    left: 13px;
+}
+
+#youNeed .col-md-5 ul li {
+    list-style-type: none;
+    margin-left: 5px;
+}
+
+#youNeed .col-md-5 h5 {
+    font-size: 17px;
+    line-height: 50px;
+    color: #000000;
+    font-family: "Dosis";
+    text-align: center;
+    display: block;
+}
+
+#youNeed .col-md-5 h5 i {
+    margin-right: 14px;
+    content: "\f00c";
+    background-color: #00fff0;
+    border-radius: 50%;
+    border: 1x solid grey;
+    padding: 5px;
+}
+
+#youNeed .col-md-5 p {
+    width: 469px;
+    height: 141px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #97a4be;
+    font-family: "Dosis";
+    text-align: right;
+    position: absolute;
+    top: 357px;
+    left: -314px;
+}
+
+#youNeed .col-md-7 .midImg {
+    height: 278px;
+    position: absolute;
+    top: 225px;
+    left: -207px;
+}
+
+#youNeed .col-md-7 .rightImg {
+    height: 380px;
+    position: absolute;
+    top: 119px;
+    left: -102px;
+}
+
+#video {
+    width: 1920px;
+    height: 488px;
+    background-color: #223047;
+}
+
+#video img {
+    position: absolute;
+    left: 650px;
+    top: 108px;
+}
+
+#video h4 {
+    position: absolute;
+    left: 629px;
+    top: 225px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #ffffff;
+    font-family: "Dosis";
+    font-weight: 300;
+    text-align: right;
+}
+
+#video p {
+    width: 771px;
+    height: 141px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: "Dosis";
+    position: absolute;
+    left: 312px;
+    top: 315px;
+    text-align: center;
+}
+
+#join {
+    height: 400px;
+}
+
+#join h4 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#join p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #233148;
+font-family: "Dosis";
+font-weight: 300;
+}
+
+#join button {
+    margin:auto;
+    display:block;
+    margin-top: 50px;
+}
+#text {
+    width: 100%;
+    height: 300px;
+    background-color: #223047;
+}
+#text p{
+    
+    margin-top: 10%;
+    display: block;
+   margin-left: 20%;
+    width: 771px;
+    height: 141px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #00fff1;
+    font-family: "Dosis";
+    text-align: center;
+
+}
+#available{
+    background-color:#f5f6fa;
+    height: 650px;
+} 
+#available .con2{
+    margin-top: 0px;
+}
+#available .con2 .liphone{
+    position: absolute;
+    left: -20px;
+    top: 38px;
+    z-index: 1;
+}
+#available .con2 .riphone{
+    position: absolute;
+    left: 161px;
+    top: 152px;
+    margin-right: 40px;
+}
+
+#available .col-md-8 h3{
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color: #233148;
+    font-family: "Dosis";
+    margin-left: 60px;
+    padding-top: 69px;
+} 
+#available .col-md-8 p{
+    width: 446px;
+    height: 30px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #97a4be;
+    font-family: "Dosis";
+    font-weight: 300;
+    margin-left: 60px;
+}
+#available .col-md-8 .apple{
+    margin-left: 60px;
+    margin-right: 15px;
+}
+#available .getAppToday{
+    position: absolute;
+    left: 298px;
+    top: 229px;
+    width: 370px;
+    height: 70px;
+}
+#cols{
+
+    width: 100%;
+    height: 520px;
+}
+#cols ul{
+    padding-top: 113px;
+}
+#cols ul li{
+    list-style-type: none;
+    font-size: 14px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #97a4be;
+font-family: "Dosis";
+text-align: center;
+}
+#cols ul .active{
+    font-size: 17px;
+line-height: 50px;
+color: #233148;
+font-family: "Dosis";
+}
+
+#cols .col-md-12 h2{
+    font-size: 30px;
+letter-spacing: 1px;
+line-height: 50px;
+color: #233148;
+font-family: "Dosis";
+padding-top: 32px;
+text-align: center;
+}
+#cols .col-md-12 h6{
+    font-size: 17px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #97a4be;
+font-family: "Dosis";
+font-weight: 300;
+padding-bottom: 45px;
+text-align: center;
+}
+#cols .search{
+    width: 570px;
+height: 50px;
+margin-left: 31px;
+background-color: #f5f6fa;
+}
+#cols button{
+    width: 170px;
+    height: 50px;
+    box-shadow: 4px 6.928px 24px rgba(0,255,241,0.5);
+    background-color: #00fff0;
+    font-size: 17px;
+line-height: 50px;
+color: #233148;
+font-family: "Dosis";
+}
+#footer{
+    background-color: #223047;
+}
+
+#footer h4{
+    font-size: 17px;
+    line-height: 50px;
+    color: #00fff1;
+    font-family: "Dosis";
+    margin-top: 23px;
+}
+#footer ul{
+    text-align: right;
+    text-align: right;
+    margin-top: 23px;
+}
+#footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+    color: white;
+  
+}
+
+
+
